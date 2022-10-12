@@ -1,0 +1,9 @@
+html
+  head
+    title= title
+    link(rel='stylesheet', href='public/css/main.css')
+  body
+    h1= title + ' v' + version
+    canvas#canvas
+    script(src="socket.io/socket.io.js")
+    script(src="public/js/main.js")
